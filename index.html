@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>
+		
+		
+		<!-- Add to homescreen for Safari on Ios -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="todo">
+		<link rel="apple-touch-icon" href="aa.jpg">
+		
+		
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="todo">
+		<meta name="theme-color" content="#2F3BA2">
+		<link rel="icon" sizes="192x192" href="aa.jpg">
+		
+		
+		<title>todo</title>
+		<link rel="stylesheet" href="css/todo.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/todo.js"></script>
+		
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_4054zwtdquxr.css" />
+	</head>
+	
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<ul class="xh">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="lt">中国联通</div>
+			<div class="g">4G</div>
+			<div class="time">11:30</div>
+			<div class="sx">
+				<img src="images/1.png" alt="" />
+			</div>
+			<div class="dl">38%</div>
+			<div class="dlt">
+				<img src="images/2.png" alt="" />
+			</div>
+		</div>
+		<!--头部-->
+		<div id="header">
+			<!--设置-->
+			<div class="set">
+				<a href="javascript:;">&#xe627;</a>
+			</div>
+			<!--center-->
+			<div id="all">标签</div>
+			<!--添加按钮-->
+			<div class="add">
+				<a href="javascript:;">&#xe620;</a>
+			</div>
+		</div>
+		<!--sousuo-->
+		<div id="input">
+			<input type="text" value=""/>
+			<a href="javascript:;">&#xe61d;</a>
+		</div>
+		
+		<!--文本部分-->
+		<ul id="uls">
+			<!--完成状态-->
+			
+			<!--<li class="done">
+				<div class="ding">
+					<img src="images/dd.png" alt="" />
+				</div>
+				<div class="content">
+					<div class="text">一条便签</div>
+				</div>
+				<div class="delete">
+					<img src="images/del.png" alt="" />
+				</div>
+			</li>-->
+			
+			<!--未完成状态-->
+			
+			<!--<li>
+				<div class="ding">
+					<img src="images/dd.png" alt="" />
+				</div>
+				<div class="content">
+					<div class="text">一条便签</div>
+				</div>
+				<div class="delete">
+					<img src="images/del.png" alt="" />
+				</div>
+				<div class="state">
+					<a href="javascript:;">x</a>
+				</div>
+			</li>-->
+		</ul>
+		<!--消除全部-->
+		<div class="all-clear">
+			<a href="javascript:;">清除全部</a>
+		</div>
+		<!--尾部-->
+		<div id="floor">
+			<!--所有-->
+			<div data-role="al" class="all index">所有</div>
+			<!--已完成-->
+			<div data-role="ac" class="active">已完成</div>
+			<!--未完成-->
+			<div data-role="co" class="completed">未完成</div>
+		</div>
+	</body>
+</html>
